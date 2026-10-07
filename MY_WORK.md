@@ -29,11 +29,11 @@
 
 | Field | Your Answer |
 |-------|-------------|
-| **Full Name** | [Write your full name here] |
-| **Student ID** | [Write your student ID here] |
-| **University Email** | [yourid]@std.psau.edu.sa |
-| **GitHub Username** | [your-github-username] |
-| **Repository Link** | [Paste your repository link here] |
+| **Full Name** | Sedra Firas Arwani |
+| **Student ID** | 445052829 |
+| **University Email** | 445052829@std.psau.edu.sa |
+| **GitHub Username** | Sedra-Arwani |
+| **Repository Link** | https://github.com/SedraArwani/OS-Assignment1-Sedra-Arwani/tree/main |
  
 ---
 
@@ -129,17 +129,27 @@
 
 ## Your Development Log
 
-### Entry 1 - [Date and Time]
+### Entry 1 - [October 7, 2026, 11G:30 PM]
 **What I did**:
+  Set up my fork repository in VS Code
+  set my student ID in SchedulerSimulation.java
+  and implemented Feature 1 Process Priority.
 
 **Details**:
+  I added a priority field and getter to the Process class, generated a random value from 1 to 10 using a separate random seeded with my ID, and displayed it when a process enters ready queue. The queue order still FIFO.
 
 **Challenges**:
+  1. VS Code couldn't run the program cause java wasn't found on my system PATH.
+  2. The terminal showed broken characters instead of the boxes and arrows.
+  3. Pushing my commit failed with a 403 permission error because VS Code was signed in with different gitHub account.
 
 **Solution**:
+  1. Reinstalled JDK and added to PATH.
+  2. Set the terminal to UTF-8 and ran java with UTF-8 options.
+  3. Cleared the saved credentials and signed in again with the account owns the repository.
 
 **Time spent**:
-
+3 hours
 ---
 
 ### Entry 2 - [Date and Time]
