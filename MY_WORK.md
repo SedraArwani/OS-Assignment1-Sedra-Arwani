@@ -107,24 +107,6 @@
 >
 > 📌 **NOTE:** Each entry needs: date and time, what you did, details, challenges, solution, and time spent. Real challenges are fine (and expected). Do not invent fake ones.
 
-## Example Entry (do not copy it, write your own)
-
-### Entry 1 - [September 22, 2026, 2:30 PM]
-**What I did**: Forked the repository and set up my student ID
-
-**Details**:
-- Created GitHub account with university email
-- Forked the starter repository and renamed it
-- Changed student ID on line 150 to my actual ID (441234567)
-- Compiled and ran the program successfully
-- Committed and pushed: `Set my student ID: 441234567`
-
-**Challenges**: Had to install JDK first because `javac` wasn't recognized
-
-**Solution**: Downloaded JDK 17 and set the PATH variable
-
-**Time spent**: 30 minutes
-
 ---
 
 ## Your Development Log
