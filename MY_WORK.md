@@ -111,7 +111,7 @@
 
 ## Your Development Log
 
-### Entry 1 - [October 7, 2026, 11G:30 PM]
+### Entry 1 - [October 7, 2026, 11:30 PM]
 **What I did**:
   Set up my fork repository in VS Code
   set my student ID in SchedulerSimulation.java
@@ -134,17 +134,23 @@
 3 hours
 ---
 
-### Entry 2 - [Date and Time]
+### Entry 2 - [October 8, 2026, 2:13 PM]
 **What I did**:
+  - Implemented Feature 2 (Context Switch Counter). 
 
 **Details**:
+  I added static contextSwitches variable inside SchedulerSimulation class, incremented it right
+  before currentThread.start() in the scheduler loop (each loop iteration gives the CPU
+  to a new process), and printed total after"ALL PROCESSES COMPLETED" message.
 
 **Challenges**:
+  None
 
 **Solution**:
+  None
 
 **Time spent**:
-
+  30 minutes
 ---
 
 ### Entry 3 - [Date and Time]
