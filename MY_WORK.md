@@ -153,17 +153,33 @@
   30 minutes
 ---
 
-### Entry 3 - [Date and Time]
+### Entry 3 - [October 8, 2026, 2:51 PM]
 **What I did**:
+ - Implemented Feature 3 (Waiting Time Tracking)
 
 **Details**:
+  I added readyTimestamp and totalWaitingTime fields to Process class, with markReady(),
+  markStarted(), getWaitingTime() and getTurnaroundTime() methods.
+  markReady() called in addProcessToQueue each time a process enters the ready queue.
+  markStarted() called right before the thread starts, so each waiting period is
+  added to the total using System.currentTimeMillis().
+  I also stored all processes in an ArrayList so I could print a final table with Burst, Waiting and Turnaround time (Waiting + Burst) after simulation ends.
+
+- My run printed Total context switches: 35, and the table showed
+  Turnaround = Waiting + Burst for every process. For ex, P1 had burst 7322ms and
+  waiting 59085ms, so turnaround was 66407ms.
 
 **Challenges**:
+- The numbers in the final table were printed with Arabic digits
+  looked like broken characters in the terminal, because my laptop's language is Arabic
+  and printf used the default locale.
 
 **Solution**:
+- I added Locale.US to the printf calls and ran Java with -Duser.language=en -Duser.country=US
+ so the digits are printed normally.
 
 **Time spent**:
-
+40 minutes.
 ---
 
 ### Entry 4 - [Date and Time]
