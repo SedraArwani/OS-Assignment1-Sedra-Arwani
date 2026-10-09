@@ -39,7 +39,7 @@
 
 ## 🎥 Video Link
 
-**Video Link**: [Paste your video link here]
+**Video Link**: (https://drive.google.com/drive/folders/1mWeLNeWmioI3lOnC6dWP6MKg7ruEqefS?usp=drive_link)
 
 > ⚠️ **WARNING:** The video must be **publicly accessible** ("Anyone with the link can view") on **Google Drive**, **YouTube (Unlisted or Public)** or any other cloud file-sharing system. A private, restricted or broken link counts as a **missing video (-1 mark)**.
 >
@@ -202,15 +202,19 @@ NONE
 
 ### Entry 5 - [Date and Time]
 **What I did**:
+Added video link drive to MY_WORK.md
 
 **Details**:
+I record and Added video link drive to MY_WORK.md
 
 **Challenges**:
+NONE
 
 **Solution**:
+NONE
 
 **Time spent**:
-
+10 Minutes
 ---
 
 ### Entry 6 - [Optional - Date and Time]
